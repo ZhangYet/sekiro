@@ -4,7 +4,9 @@
 (setq package-enable-at-startup nil)
 (package-initialize)
 
-(setq dotfiles-packages-list '(use-package))
+(setq dotfiles-packages-list '(
+			       use-package
+			       ))
 
 (defun dotfiles-auto-install-packages ()
   (package-refresh-contents)

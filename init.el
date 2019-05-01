@@ -1,3 +1,9 @@
+(package-initialize)
+
+(add-to-list 'load-path "~/.emacs.d/rc")
+(require 'rc-basic)
+
+
 ;; install melpa
 (require 'package)
 (let* ((no-ssl (and (memq system-type '(windows-nt ms-dos))

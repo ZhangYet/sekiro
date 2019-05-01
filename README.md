@@ -8,5 +8,5 @@ Emacs config from scratch.
 - [] markdown
 - [x] [use-package](https://melpa.org/#/use-package)
 - [] better auto complete
-- [] dir tree
-- [] more theme
+- [x] [neotree](https://github.com/jaypei/emacs-neotree)
+- [x] more theme
