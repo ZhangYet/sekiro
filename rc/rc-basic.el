@@ -23,12 +23,17 @@
 (electric-pair-mode t)
 
 ;; auto complete
-
 (use-package auto-complete
   :ensure t)
 (add-hook 'emacs-lisp-mode-hook (lambda ()
 				  (auto-complete-mode t)
 				  (setq ac-sources (append ac-sources '(ac-source-functions)))))
+
+;; set windmove
+(global-set-key (kbd "M-k") 'windmove-up)
+(global-set-key (kbd "M-j") 'windmove-down)
+(global-set-key (kbd "M-l") 'windmove-right)
+(global-set-key (kbd "M-h") 'windmove-left)
 
 (provide 'rc-basic)
 ;;;
