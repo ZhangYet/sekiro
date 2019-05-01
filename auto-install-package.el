@@ -13,6 +13,7 @@
 			       ace-window
 			       avy
 			       auto-complete
+			       git-gutter+
 			       ))
 
 (defun dotfiles-auto-install-packages ()
