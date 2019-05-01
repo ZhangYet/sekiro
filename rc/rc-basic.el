@@ -11,5 +11,8 @@
   :ensure t
   :config (load-theme 'moe-dark t))
 
+;; linum
+(global-linum-mode t)
+
 (provide 'rc-basic)
 ;;;
