@@ -4,6 +4,9 @@ Emacs config from scratch.
 
 ## TODO
 
-* [*] [melpa](https://melpa.org/)
-* [] markdown
-* [] [use-package](https://melpa.org/#/use-package)
+- [x] [melpa](https://melpa.org/)
+- [] markdown
+- [x] [use-package](https://melpa.org/#/use-package)
+- [] better auto complete
+- [] dir tree
+- [] more theme
