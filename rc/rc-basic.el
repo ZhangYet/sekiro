@@ -14,5 +14,11 @@
 ;; linum
 (global-linum-mode t)
 
+;; ace-window
+(use-package avy
+  :ensure t
+  :bind ("C-o" . 'avy-goto-char))
+
+
 (provide 'rc-basic)
 ;;;

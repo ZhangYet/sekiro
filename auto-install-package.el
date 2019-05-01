@@ -1,11 +1,17 @@
 (require 'cl)
 (require 'package)
-(add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/"))
+(add-to-list 'package-archives '("melpa" . "http://elpa.emacs-china.org/melpa-stable/"))
 (setq package-enable-at-startup nil)
 (package-initialize)
 
 (setq dotfiles-packages-list '(
 			       use-package
+			       magit
+			       markdown-mode
+			       neotree
+			       moe-theme
+			       ace-window
+			       avy
 			       ))
 
 (defun dotfiles-auto-install-packages ()
