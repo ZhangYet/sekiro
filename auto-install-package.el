@@ -12,6 +12,7 @@
 			       moe-theme
 			       ace-window
 			       avy
+			       auto-complete
 			       ))
 
 (defun dotfiles-auto-install-packages ()

@@ -19,6 +19,16 @@
   :ensure t
   :bind ("C-o" . 'avy-goto-char))
 
+;; auto pair
+(electric-pair-mode t)
+
+;; auto complete
+
+(use-package auto-complete
+  :ensure t)
+(add-hook 'emacs-lisp-mode-hook (lambda ()
+				  (auto-complete-mode t)
+				  (setq ac-sources (append ac-sources '(ac-source-functions)))))
 
 (provide 'rc-basic)
 ;;;
