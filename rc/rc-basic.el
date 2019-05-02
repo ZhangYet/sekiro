@@ -17,7 +17,8 @@
 ;; ace-window
 (use-package avy
   :ensure t
-  :bind ("C-o" . 'avy-goto-char))
+  :bind (("C-o" . 'avy-goto-char)
+	 ("C-O" . 'avy-goto-char-2)))
 
 ;; auto pair
 (electric-pair-mode t)
@@ -40,7 +41,7 @@
   :ensure t
   :config (yas-global-mode 1)
   :bind (("C-c C-n" . yas-new-snippet)
-	 ("C-c C-s" . yas-insert-snippet)))
+	 ("C-c M-s" . yas-insert-snippet)))
 
 (provide 'rc-basic)
 ;;;
