@@ -35,5 +35,12 @@
 (global-set-key (kbd "M-l") 'windmove-right)
 (global-set-key (kbd "M-h") 'windmove-left)
 
+;; yasnippet
+(use-package yasnippet
+  :ensure t
+  :config (yas-global-mode 1)
+  :bind (("C-c C-n" . yas-new-snippet)
+	 ("C-c C-s" . yas-insert-snippet)))
+
 (provide 'rc-basic)
 ;;;

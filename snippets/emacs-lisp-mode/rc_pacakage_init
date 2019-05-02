@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: rc pacakage init
+# key: rcpi
+# --
+;;; $1 ---
+$2
+(provide '$1)
+;;;

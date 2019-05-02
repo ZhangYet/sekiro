@@ -12,4 +12,5 @@ Emacs config from scratch.
 - [x] [auto-complete](https://github.com/auto-complete/auto-complete "auto-complete")
 - [x] [avy](https://github.com/abo-abo/avy "avy")
 - [x] [git-glutter+](https://github.com/nonsequitur/git-gutter-plus "git-glutter+")
-
+- [ ] go-mode
+- [ ] [yasnippet](https://github.com/joaotavora/yasnippet "yasnippet")

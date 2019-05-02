@@ -15,6 +15,7 @@
 			       avy
 			       auto-complete
 			       git-gutter+
+			       yasnippet
 			       ))
 
 (defun dotfiles-auto-install-packages ()
