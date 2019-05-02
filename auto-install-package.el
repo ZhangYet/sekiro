@@ -1,6 +1,7 @@
 (require 'cl)
 (require 'package)
 (add-to-list 'package-archives '("melpa" . "http://elpa.emacs-china.org/melpa-stable/"))
+(add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/"))
 (setq package-enable-at-startup nil)
 (package-initialize)
 
