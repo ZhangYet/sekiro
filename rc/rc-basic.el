@@ -18,7 +18,7 @@
 (use-package avy
   :ensure t
   :bind (("C-o" . 'avy-goto-char)
-	 ("C-O" . 'avy-goto-char-2)))
+	 ("M-o" . 'avy-goto-char-2)))
 
 ;; auto pair
 (electric-pair-mode t)
