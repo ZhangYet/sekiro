@@ -16,6 +16,7 @@
 			       auto-complete
 			       git-gutter+
 			       yasnippet
+			       org
 			       ))
 
 (defun dotfiles-auto-install-packages ()
