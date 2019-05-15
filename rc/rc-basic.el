@@ -43,5 +43,12 @@
   :bind (("C-c C-n" . yas-new-snippet)
 	 ("C-c M-s" . yas-insert-snippet)))
 
+;; org-mode
+(use-package org
+  :ensure)
+(define-key global-map "\C-cl" 'org-store-link)
+(define-key global-map "\C-ca" 'org-agenda)
+(setq org-log-done t)
+
 (provide 'rc-basic)
 ;;;
