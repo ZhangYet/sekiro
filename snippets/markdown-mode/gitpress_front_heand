@@ -4,10 +4,10 @@
 # --
 ---
 title: "$1"
-tags: [$2]
+tags: ["$2"]
 date: `(format-time-string "%Y-%m-%d %H:%M:%S")`
 layout: post
 excerpt: $3
-categories:
+categories: $4
 comments: true
 ---
