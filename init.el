@@ -5,6 +5,7 @@
 (require 'rc-markdown)
 (require 'rc-git)
 (require 'rc-go)
+(require 'rc-plugin)
 
 ;; install melpa
 (require 'package)

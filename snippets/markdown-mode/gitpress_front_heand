@@ -6,5 +6,8 @@
 title: "$1"
 tags: [$2]
 date: `(format-time-string "%Y-%m-%d %H:%M:%S")`
+layout: post
 excerpt: $3
+categories:
+comments: true
 ---
