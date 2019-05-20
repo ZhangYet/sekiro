@@ -29,6 +29,9 @@
 (add-hook 'emacs-lisp-mode-hook (lambda ()
 				  (auto-complete-mode t)
 				  (setq ac-sources (append ac-sources '(ac-source-functions)))))
+(add-hook 'lua-mode-hook (lambda ()
+			   (auto-complete-mode t)
+			   (setq ac-sources (append ac-sources '(ac-sources-lua)))))
 
 ;; set windmove
 (global-set-key (kbd "M-k") 'windmove-up)

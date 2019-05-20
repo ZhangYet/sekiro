@@ -17,6 +17,7 @@
 			       git-gutter+
 			       yasnippet
 			       org
+			       lua-mode
 			       ))
 
 (defun dotfiles-auto-install-packages ()
