@@ -7,6 +7,7 @@
 (require 'rc-go)
 (require 'rc-plugin)
 (require 'rc-lua)
+(require 'rc-org)
 
 ;; install melpa
 (require 'package)
@@ -34,7 +35,7 @@ There are two things you can do about this warning:
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (company company-lua format-all format-sql org lua-mode go-mode git-gutter+ diff-hl auto-complete avy ace-windows ace-window yasnippet magit markdown-mode moe-theme neotree use-package paradox))))
+    (org-mode company company-lua format-all format-sql org lua-mode go-mode git-gutter+ diff-hl auto-complete avy ace-windows ace-window yasnippet magit markdown-mode moe-theme neotree use-package paradox))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
