@@ -1,0 +1,11 @@
+Sekiro Development Plan -*- mode: org -*-
+
+* Learning plan
+
+** IN-PROGRESS [[https://orgmode.org/worg/org-tutorials/org4beginners.html][org for beginners]]
+** TODO   [[https://orgmode.org/manual/index.html][org manual]]
+
+* Minor modification
+
+** TODO make "c-o" to start at a newline
+
