@@ -7,5 +7,7 @@ Sekiro Development Plan -*- mode: org -*-
 
 * Minor modification
 
-** TODO make "c-o" to start at a newline
+
+** WAITING make "c-o" to start at a newline                           :emacs:
+
 
