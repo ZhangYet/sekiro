@@ -10,5 +10,7 @@
 	 ("C-c a" . 'org-agenda)
 	 ("C-c c" . 'org-capture)))
 
+(require 'ox-md nil t)
+
 (provide 'rc-org)
 ;;;
