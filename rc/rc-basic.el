@@ -4,7 +4,8 @@
 ;; neo-tree
 (use-package neotree
   :ensure t
-  :bind ("C-z" . 'neotree-toggle))
+  :bind ("C-z" . 'neotree-toggle)
+  :init (setq neo-window-fixed-size nil))
 
 ;; theme
 (use-package moe-theme
