@@ -59,5 +59,8 @@
   :config
   (hlinum-activate))
 
+(use-package smex
+  :bind ("M-x" . smex))
+
 (provide 'rc-basic)
 ;;;
