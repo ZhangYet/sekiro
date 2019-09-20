@@ -54,5 +54,10 @@
 (define-key global-map "\C-ca" 'org-agenda)
 (setq org-log-done t)
 
+;; hlinum
+(use-package hlinum
+  :config
+  (hlinum-activate))
+
 (provide 'rc-basic)
 ;;;
