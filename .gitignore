@@ -3,3 +3,4 @@ moe-*
 transient/*
 ac-comphist.dat
 eshell/*
+smex-items
