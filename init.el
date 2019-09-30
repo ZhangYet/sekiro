@@ -35,7 +35,7 @@ There are two things you can do about this warning:
  ;; If there is more than one, they won't work right.
  '(org-agenda-files
    (quote
-    ("~/Repos/vigna" "~/Repos/vigna/book_review/douban")))
+    ("~/Repos/vigna/schedule" "~/Repos/vigna/book_review/douban")))
  '(package-selected-packages
    (quote
     (helm-swoop helm-projectile helm-ag helm ggtags smartparens smex hlinum org-mode company company-lua format-all format-sql org lua-mode go-mode git-gutter+ diff-hl auto-complete avy ace-windows ace-window yasnippet magit markdown-mode moe-theme neotree use-package paradox))))
