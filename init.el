@@ -38,10 +38,12 @@ There are two things you can do about this warning:
     ("~/Repos/vigna/schedule" "~/Repos/vigna/book_review/douban")))
  '(package-selected-packages
    (quote
-    (helm-swoop helm-projectile helm-ag helm ggtags smartparens smex hlinum org-mode company company-lua format-all format-sql org lua-mode go-mode git-gutter+ diff-hl auto-complete avy ace-windows ace-window yasnippet magit markdown-mode moe-theme neotree use-package paradox))))
+    (flycheck-irony flycheck-rtags flycheck company-irony-c-headers company-irony company-rtags cmake-ide helm-swoop helm-projectile helm-ag helm ggtags smartparens smex hlinum org-mode company company-lua format-all format-sql org lua-mode go-mode git-gutter+ diff-hl auto-complete avy ace-windows ace-window yasnippet magit markdown-mode moe-theme neotree use-package paradox))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+
+(cmake-ide-setup)
