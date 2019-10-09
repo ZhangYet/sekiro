@@ -17,6 +17,7 @@
 
 (define-key c++-mode-map (kbd "M-.") 'ciao-goto-symbol)
 (define-key c++-mode-map (kbd "M-,") 'pop-tag-mark)
+(rtags-enable-standard-keybindings)
 
 ;; completion
 (add-hook 'c++-mode-hook 'irony-mode)
@@ -38,9 +39,10 @@
 
 (add-hook 'irony-mode-hook 'company-irony-setup-begin-commands)
 (setq company-backends (delete 'company-semantic company-backends))
+(require 'company-irony-c-headers)
 (eval-after-load 'company
   '(add-to-list
-    'company-backends 'company-irony))
+    'company-backends '(company-irony-c-headers company-irony)))
 
 (provide 'rc-c)
 ;;;
