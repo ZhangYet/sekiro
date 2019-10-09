@@ -9,6 +9,7 @@
 (require 'rc-lua)
 (require 'rc-org)
 (require 'rc-el)
+(require 'rc-c)
 
 ;; install melpa
 (require 'package)
