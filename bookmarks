@@ -2,7 +2,27 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("org-capture-last-stored"
+(("RTags_3"
+ (filename . "~/repo/googletest/googlemock/src/gmock-cardinalities.cc")
+ (front-context-string . "Expect(false, __")
+ (rear-context-string . "      internal::")
+ (position . 2702))
+("RTags_2"
+ (filename . "~/repo/googletest/googlemock/src/gmock-cardinalities.cc")
+ (front-context-string . "Expect(false, __")
+ (rear-context-string . "      internal::")
+ (position . 2482))
+("RTags_1"
+ (filename . "~/repo/googletest/googlemock/src/gmock-cardinalities.cc")
+ (front-context-string . "Expect(false, __")
+ (rear-context-string . "      internal::")
+ (position . 2293))
+("RTags_0"
+ (filename . "~/repo/googletest/googlemock/include/gmock/internal/gmock-internal-utils.h")
+ (front-context-string . "Expect(condition")
+ (rear-context-string . ", int line) {\n  ")
+ (position . 11495))
+("org-capture-last-stored"
  (filename . "~/.notes")
  (front-context-string . "** TODO \n   <201")
  (rear-context-string . "%91][看完第四课的视频]]\n")
