@@ -4,3 +4,4 @@ transient/*
 ac-comphist.dat
 eshell/*
 smex-items
+irony/cdb-json-projects
