@@ -69,5 +69,12 @@
 
 (setq epg-gpg-program "gpg2")
 
+;; multiple-cursors
+(use-package multiple-cursors
+  :ensure t
+  :bind (("M-l" . mc/edit-lines)
+	 ("M-n" . mc/mark-next-like-this)
+	 ("M-p" . mc/mark-previous-like-this)))
+
 (provide 'rc-basic)
 ;;;
