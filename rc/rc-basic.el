@@ -1,12 +1,6 @@
 ;;; basic.el ---
 (require 'use-package)
 
-;; neo-tree
-(use-package neotree
-  :ensure t
-  :bind ("C-z" . 'neotree-toggle)
-  :init (setq neo-theme 'arrow))
-
 ;; theme
 (use-package moe-theme
   :ensure t
@@ -75,6 +69,20 @@
   :bind (("M-l" . mc/edit-lines)
 	 ("M-n" . mc/mark-next-like-this)
 	 ("M-p" . mc/mark-previous-like-this)))
+
+;; evel mode
+(use-package evil
+  :ensure t
+  :init
+  (setq evil-default-state 'emacs))
+
+(evil-mode 1)
+
+;; neo-tree
+(use-package neotree
+  :ensure t
+  :bind ("C-c C-z" . 'neotree-toggle)
+  :init (setq neo-theme 'arrow))
 
 (provide 'rc-basic)
 ;;;
