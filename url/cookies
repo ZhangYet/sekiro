@@ -1,0 +1,14 @@
+;; Emacs-W3 HTTP cookies file
+;; Automatically generated file!!! DO NOT EDIT!!!
+
+(setq url-cookie-storage
+ '((".povilasv.me"
+  [url-cookie "__cfduid" "dafd4f2ec37dc76f840c513234ef476981578670350" "Sun, 09-Feb-20 15:32:30 GMT" "/" ".povilasv.me" nil]))
+)
+(setq url-cookie-secure-storage
+ 'nil)
+
+;; Local Variables:
+;; version-control: never
+;; no-byte-compile: t
+;; End:
