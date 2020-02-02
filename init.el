@@ -12,6 +12,9 @@
 (require 'rc-c)
 (require 'rc-js)
 
+;; other config
+(setq company-dabbrev-downcase nil)
+
 ;; install melpa
 (require 'package)
 (let* ((no-ssl (and (memq system-type '(windows-nt ms-dos))

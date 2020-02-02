@@ -54,5 +54,10 @@
 ;;bind to key
 (define-key org-mode-map (kbd "M-i") 'org-begin-template)
 
+;; dot
+(org-babel-do-load-languages
+ 'org-babel-load-languages
+ '((dot . t)))
+
 (provide 'rc-org)
 ;;;

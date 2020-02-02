@@ -21,6 +21,7 @@
 ;; auto complete
 (use-package auto-complete
   :ensure t)
+(setq ac-ignore-case nil)
 (add-hook 'emacs-lisp-mode-hook (lambda ()
 				  (auto-complete-mode t)
 				  (setq ac-sources (append ac-sources '(ac-source-functions)))))
