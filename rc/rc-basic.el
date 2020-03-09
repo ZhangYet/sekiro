@@ -86,9 +86,15 @@
   :init (setq neo-theme 'arrow))
 
 ;; indent
+(add-to-list 'load-path "~/.emacs.d/elpa/highlight-indent-guides/")
+(require 'highlight-indent-guides)
 (add-hook 'prog-mode-hook 'highlight-indent-guides-mode)
-(setq highlight-indent-guides-method 'character)
-(setq highlight-indent-guides-character ?\|)
+(setq highlight-indent-guides-method 'column)
+;; (setq highlight-indent-guides-character ?\|)
+(set-face-background 'highlight-indent-guides-odd-face "green")
+(set-face-background 'highlight-indent-guides-even-face "blue")
+(set-face-foreground 'highlight-indent-guides-character-face "green")
+
 
 (provide 'rc-basic)
 ;;;
