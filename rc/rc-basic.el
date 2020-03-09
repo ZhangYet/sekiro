@@ -95,6 +95,9 @@
 (set-face-background 'highlight-indent-guides-even-face "blue")
 (set-face-foreground 'highlight-indent-guides-character-face "green")
 
+;; python
+(setq python-shell-interpreter "python3")
+(setq python-shell-completion-native-enable nil)
 
 (provide 'rc-basic)
 ;;;
