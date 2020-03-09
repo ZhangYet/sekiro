@@ -85,5 +85,10 @@
   :bind ("C-c C-z" . 'neotree-toggle)
   :init (setq neo-theme 'arrow))
 
+;; indent
+(add-hook 'prog-mode-hook 'highlight-indent-guides-mode)
+(setq highlight-indent-guides-method 'character)
+(setq highlight-indent-guides-character ?\|)
+
 (provide 'rc-basic)
 ;;;
