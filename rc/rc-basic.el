@@ -98,6 +98,8 @@
 ;; python
 (setq python-shell-interpreter "python3")
 (setq python-shell-completion-native-enable nil)
+(require 'py-autopep8)
+(add-hook 'python-mode-hook 'py-autopep8-enable-on-save)
 
 (provide 'rc-basic)
 ;;;
