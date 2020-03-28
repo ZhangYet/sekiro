@@ -5,6 +5,7 @@
       '(
 	org-beginning-of-line
 	org-return
+	org-self-insert-command
 	smex
 	))
 

@@ -2,11 +2,17 @@
 (require 'use-package)
 
 (use-package rust-mode
-	     :ensure t)
+  :ensure t)
 
-(add-hook 'rust-mode-hook 'cargo-minor-mode)
+(use-package cargo
+  :hook (rust-mode . cargo-minor-mode))
 
-;;(setq racer-rust-src-path "/home/vagrant/repos/rust")
+;; Load rust-mode when you open `.rs` files
+(add-to-list 'auto-mode-alist '("\\.rs\\'" . rust-mode))
+;; (add-to-list 'auto-mode-alist '("\\.rs\\'" . cargo-minor-mode))
+(add-to-list 'auto-mode-alist '("Cargo.toml" . rust-mode))
+
+;; racer
 (add-hook 'rust-mode-hook #'racer-mode)
 (add-hook 'racer-mode-hook #'eldoc-mode)
 (add-hook 'racer-mode-hook #'company-mode)

@@ -11,6 +11,7 @@
 (require 'rc-el)
 (require 'rc-c)
 (require 'rc-js)
+(require 'rc-rust)
 
 ;; other config
 (setq company-dabbrev-downcase nil)
