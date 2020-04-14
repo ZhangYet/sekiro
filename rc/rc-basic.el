@@ -2,9 +2,9 @@
 (require 'use-package)
 
 ;; theme
-(use-package moe-theme
-  :ensure t
-  :config (load-theme 'moe-dark t))
+(add-to-list 'load-path "~/.emacs.d/elpa/moe-theme.el/")
+(require 'highlight-indent-guides)
+(load-theme 'moe-dark t)
 
 ;; linum
 (global-linum-mode t)
