@@ -3,7 +3,7 @@
 
 ;; theme
 (add-to-list 'load-path "~/.emacs.d/elpa/moe-theme.el/")
-(require 'highlight-indent-guides)
+(require 'moe-theme)
 (load-theme 'moe-dark t)
 
 ;; linum
@@ -86,7 +86,7 @@
   :init (setq neo-theme 'arrow))
 
 ;; indent
-(add-to-list 'load-path "~/.emacs.d/elpa/highlight-indent-guides/")
+(add-to-list 'load-path "~/.emacs.d/elpa/highlight-indent-guides")
 (require 'highlight-indent-guides)
 (add-hook 'prog-mode-hook 'highlight-indent-guides-mode)
 (setq highlight-indent-guides-method 'column)
