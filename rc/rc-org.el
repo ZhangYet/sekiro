@@ -5,7 +5,7 @@
   :ensure t
   :init
   (setq org-todo-keywords
-  '((sequence "TODO" "IN-PROGRESS" "WAITING" "DONE")))
+  '((sequence "TODO" "IN-PROGRESS" "WAITING" "DONE" "GIVEUP")))
   :bind (("C-c l" . 'org-store-link)
 	 ("C-c a" . 'org-agenda)
 	 ("C-c c" . 'org-capture)))
