@@ -6,7 +6,7 @@
 (require 'rc-git)
 (require 'rc-go)
 (require 'rc-plugin)
-(require 'rc-lua)
+;; (require 'rc-lua)
 (require 'rc-org)
 (require 'rc-el)
 (require 'rc-c)
@@ -34,7 +34,7 @@ There are two things you can do about this warning:
   (when (< emacs-major-version 24)
     ;; For important compatibility libraries like cl-lib
     (add-to-list 'package-archives (cons "gnu" (concat proto "://elpa.gnu.org/packages/")))))
-(package-initialize)
+;; (package-initialize)
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

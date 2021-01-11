@@ -13,7 +13,7 @@
 (use-package avy
   :ensure t
   :bind (("C-o" . 'avy-goto-char)
-	 ("M-o" . 'avy-goto-char-2)))
+	 ("M-o" . 'avy-goto-char-timer)))
 
 ;; auto pair
 (electric-pair-mode t)
@@ -100,6 +100,10 @@
 (setq python-shell-completion-native-enable nil)
 (require 'py-autopep8)
 (add-hook 'python-mode-hook 'py-autopep8-enable-on-save)
+
+;; some settings
+(tool-bar-mode nil)
+(global-hl-line-mode t)
 
 (provide 'rc-basic)
 ;;;
