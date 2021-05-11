@@ -59,5 +59,8 @@
  'org-babel-load-languages
  '((dot . t)))
 
+(setq org-clock-persist 'history)
+(org-clock-persistence-insinuate)
+
 (provide 'rc-org)
 ;;;
