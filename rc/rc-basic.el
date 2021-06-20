@@ -86,20 +86,23 @@
   :init (setq neo-theme 'arrow))
 
 ;; indent
-(add-to-list 'load-path "~/.emacs.d/elpa/highlight-indent-guides")
-(require 'highlight-indent-guides)
-(add-hook 'prog-mode-hook 'highlight-indent-guides-mode)
-(setq highlight-indent-guides-method 'column)
-;; (setq highlight-indent-guides-character ?\|)
-(set-face-background 'highlight-indent-guides-odd-face "green")
-(set-face-background 'highlight-indent-guides-even-face "blue")
-(set-face-foreground 'highlight-indent-guides-character-face "green")
+;; (add-to-list 'load-path "~/.emacs.d/elpa/highlight-indent-guides")
+;; (require 'highlight-indent-guides)
+;; (add-hook 'prog-mode-hook 'highlight-indent-guides-mode)
+;; (setq highlight-indent-guides-method 'column)
+;; ;; (setq highlight-indent-guides-character ?\|)
+;; (set-face-background 'highlight-indent-guides-odd-face "green")
+;; (set-face-background 'highlight-indent-guides-even-face "blue")
+;; (set-face-foreground 'highlight-indent-guides-character-face "green")
 
 ;; python
 (setq python-shell-interpreter "python3")
 (setq python-shell-completion-native-enable nil)
 (require 'py-autopep8)
 (add-hook 'python-mode-hook 'py-autopep8-enable-on-save)
+
+;; auto reload
+(global-auto-revert-mode t)
 
 (provide 'rc-basic)
 ;;;

@@ -59,5 +59,10 @@
  'org-babel-load-languages
  '((dot . t)))
 
+(setq org-export-with-section-numbers nil)
+(setq org-html-validation-link nil)
+(setq org-export-html-postamble nil)
+(setq org-clock-persist 'history)
+(org-clock-persistence-insinuate)
 (provide 'rc-org)
 ;;;
