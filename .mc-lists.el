@@ -16,4 +16,5 @@
 	org-end-of-line
 	org-export-dispatch
 	org-kill-line
+	org-meta-return
 	))

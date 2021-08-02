@@ -63,10 +63,16 @@
   (if (string-equal org-state "IN-PROGRESS")
       (org-clock-in)
     (if (org-clock-is-active)
-	(org-clock-out)
-      (message "there is no clock"))))
+	(org-clock-out))))
 
 (add-to-list 'org-after-todo-state-change-hook 'auto-clock t)
+
+(require 'org-crypt)
+(org-crypt-use-before-save-magic)
+(setq org-tags-exclude-from-inheritance (quote ("crypt")))
+;; GPG key to use for encryption
+;; Either the Key ID or set to nil to use symmetric encryption.
+(setq org-crypt-key nil)
 
 (provide 'rc-org)
 ;;;

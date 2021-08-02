@@ -20,6 +20,5 @@
 (setq company-tooltip-align-annotations t)
 
 
-
 (provide 'rc-rust)
 ;;;
